@@ -74,4 +74,40 @@ h2{
   margin: 10px;   
 }
 
- 
+ .main{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  margin: 10px;
+  font-size: 15px;
+  background-color:#333;
+  
+}
+
+.main a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main:hover{
+  cursor: pointer;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  font-size: 15px;
+  background-color: #333;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
