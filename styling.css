@@ -65,7 +65,7 @@ input{
 }
 
 .main:hover{
-    background-color: lightblue;
+    background-color: lightsteelblue;
 }
 
 .main a:active{
@@ -83,6 +83,9 @@ input{
     cursor: pointer;
 }
  
+.menu:hover{
+    background-color: lightsteelblue;
+}
 
 .menu a:active{
     color: #f3f3f3;
