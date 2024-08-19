@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+    line-height: 1.6;   
+    font-size: 20px;
+}
+
+.main-menu{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px; 
+    font-weight: bold;
+    
+}
+
+
+.menu img{
+    width: 400px;
+    height: 300px;
+    padding: 10px;     
+}
+
+p{
+    margin: 10px 0; 
+    padding: 10px;
+}
+
+.header{
+    padding: 15px;  
+    font-size: 15px;
+     
+}
+
+h2{
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 10px;  
+}
+
+h5{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;      
+}
+
+.media{
+    padding: 10px;   
+    width: 400px;
+    height: 400px;    
+}
+
+
