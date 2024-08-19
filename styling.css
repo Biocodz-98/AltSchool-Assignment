@@ -53,7 +53,7 @@ input{
 
 
     
-.btn {
+.main {
     padding: 10px 20px;
     background-color: lightskyblue;
     color: #fff;
@@ -64,11 +64,11 @@ input{
     display: block;
 }
 
-button:hover{
+.main:hover{
     background-color: lightblue;
 }
 
-.btn a:active{
+.main a:active{
     color: #f3f3f3;
 } 
 
@@ -127,5 +127,21 @@ img{
     height: 300px;
 }
 
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin:10px;
+}
 
+button:hover{
+    color: lightgrey;
+    cursor: pointer;
+}
+
+button a:active{
+    color: coral;
+}
 
