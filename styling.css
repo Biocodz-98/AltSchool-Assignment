@@ -55,7 +55,7 @@ input{
     
 .main {
     padding: 10px 20px;
-    background-color: lightskyblue;
+    background-color: dodgerblue;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -75,7 +75,7 @@ input{
 /* menu style */
 .menu{
     padding: 10px 20px;
-    background-color: lightskyblue;
+    background-color: dodgerblue;   
     color: #fff;
     border-radius: 5px;
     margin: 10px;
@@ -95,7 +95,10 @@ input{
 
   a{
     text-decoration: none;
+
 }
+
+
 
 /* unordered list link tag */
 ul a{
