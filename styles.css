@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Lato', sans-serif; 
+        line-height: 1.7;   
+        font-size: 17px;    
+}
+
+.menu{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: left; 
+    margin: 10px;
+}
+
+.header{
+    font-size: 18px;    
+    color: #000;
+    text-align: left;
+    padding: 10px;  
+}
+
+.content-table{
+    border-collapse: collapse;  
+    margin: 25px 0; 
+    font-size: 20px; 
+    min-width: 400px;
+    border-radius: 5px 5px 0 0; 
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+     
+             
+}
+
+.content-table thead tr{
+    background-color: #333;
+    color: #fff; 
+    text-align: left;   
+    font-weight: bold;
+}
+
+.content-table th, td{
+    padding: 12px 15px; 
+}   
+
+.content-table tbody tr{
+    border-bottom: 1px solid #ddd; 
+}   
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #333;  
+}
+    
+ 
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;   
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    color: #fff;
+    cursor: pointer;    
+}
+
+.btn:hover{
+    background-color: lightgray; 
+    color:#fff;   
+     
+}  
+
+.btn a{
+    text-decoration: none;    
+} 
+
+.btn a:active{
+    color: #f3f3f3;    
+}   
