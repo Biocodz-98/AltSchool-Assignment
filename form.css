@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:  #f5f5f5;       
+    background-color:#fff;       
 }   
 
 .main-menu{
@@ -51,12 +51,19 @@ input{
     border: solid 1px #ccc; 
 }
 
-
+select{
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;     
+}
     
-.main {
+.main{   
     padding: 10px 20px;
     background-color: dodgerblue;
-    color: #fff;
+    color: #fff;    
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -133,21 +140,19 @@ img{
     height: 300px;
 }
 
-button{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
+input[type="submit"]{
+    padding:12px 20px;   
+    background-color: dodgerblue;
     color: #fff;
-    margin:10px;
-}
-
-button:hover{
-    color: lightgrey;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 10px;   
 }
 
-button a:active{
-    color: coral;
-}
-
+input[type="submit"]:hover{
+    background-color: lightsteelblue;
+}   
